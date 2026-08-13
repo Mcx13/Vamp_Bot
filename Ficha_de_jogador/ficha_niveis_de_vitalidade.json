@@ -1,17 +1,5 @@
-#niveis de vitalidade
-| Nível de Vitalidade   | Penalidade de Dados | Movimento                           |
-| --------------------- | ------------------: | ----------------------------------- |
-| **Escoriado**         |                   0 | Sem penalidade                      |
-| **Machucado**         |                  −1 | Sem penalidade                      |
-| **Ferido**            |                  −1 | Corrida máxima reduzida pela metade |
-| **Ferido Gravemente** |                  −2 | Não pode correr, apenas andar       |
-| **Espancado**         |                  −2 | Só pode mancar até 3 m por turno    |
-| **Aleijado**          |                  −5 | Só pode rastejar até 1 m por turno  |
-| **Incapacitado**      |                   — | Não pode se mover                   |
-| **Torpor**            |                   — | Não pode agir                       |
-| **Morte Final**       |                   — | Destruição permanente               |
 
-"Níveis de Vitalidade":{
+  "Níveis de Vitalidade":{
     "Escoriado":{
         "penalidade de dados":0,
         "descricao": "O personagem está apenas machucado e não sofre penalidades nas paradas de dados devido ao dano"
