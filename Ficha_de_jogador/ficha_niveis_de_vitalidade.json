@@ -1,0 +1,46 @@
+#niveis de vitalidade
+| Nível de Vitalidade   | Penalidade de Dados | Movimento                           |
+| --------------------- | ------------------: | ----------------------------------- |
+| **Escoriado**         |                   0 | Sem penalidade                      |
+| **Machucado**         |                  −1 | Sem penalidade                      |
+| **Ferido**            |                  −1 | Corrida máxima reduzida pela metade |
+| **Ferido Gravemente** |                  −2 | Não pode correr, apenas andar       |
+| **Espancado**         |                  −2 | Só pode mancar até 3 m por turno    |
+| **Aleijado**          |                  −5 | Só pode rastejar até 1 m por turno  |
+| **Incapacitado**      |                   — | Não pode se mover                   |
+| **Torpor**            |                   — | Não pode agir                       |
+| **Morte Final**       |                   — | Destruição permanente               |
+
+"Níveis de Vitalidade":{
+    "Escoriado":{
+        "penalidade de dados":0,
+        "descricao": "O personagem está apenas machucado e não sofre penalidades nas paradas de dados devido ao dano"
+        },
+    "Machucado":{
+        "penalidade de dados": -1,
+        "descricao": "O personagem está superficialmente ferido, mas não sofre restrições de movimento."
+        },
+    "Ferido":{
+        "penalidade de dados": -1,
+        "descricao": "O personagem sofreu ferimentos leves; seu movimento é ligeiramente prejudicado (metade da vel. máxima de corrida)"
+        },
+    "Ferido Gravemente":{
+        "penalidade de dados": -2,
+        "descricao": "O personagem sofreu danos significativos e não pode correr (embora ainda possa caminhar). Neste nível, o personagem pode apenas se mover ou atacar — ele sempre perde dados ao tentar fazer ambos, ação e movimento, na mesma rodada."
+        },
+    "Espancado": {
+        "penalidade de dados": -2,
+        "descricao": "O personagem está gravemente ferido e só pode mancar (3 metros por turno)"
+        },
+    "Aleijado":{
+        "penalidade de dados": -5,
+        "descricao": " personagem está catastroficamente ferido e só consegue rastejar (1 metro por turno)"
+        },
+    "Incapacitado":{
+        "penalidade de dados": false,
+        "descricao": "O personagem está incapaz de se mover e provavelmente inconsciente. Vampiros Incapacitados que não tenham sangue entram em Torpor"
+        },
+    "Torpor": "O personagem entra em um transe semelhante à morte. Ele não pode realizar nenhuma ação — nem mesmo gastar Pontos de Sangue — até que um período de tempo tenha se passado.",
+    "Morte Final": "O  personagem morre novamente. Desta vez, sua morte é permanente."
+    
+}

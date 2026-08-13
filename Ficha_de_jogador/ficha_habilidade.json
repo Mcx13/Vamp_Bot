@@ -748,32 +748,270 @@
 
                 "2": {
                 "nivel":"Estudante",
-                "descricao": "Você consegue contar histórias populares com precisão e entende seu significado cultural."
+                "descricao": "Sua memória para histórias e tradições  é impressionante, e você coleciona até os relatos  mais esotéricos. Você preserva palavras que o  tempo tenta apagar. Mesmo aqueles que têm o  saber se aproximam, enchendo seus ouvidos com  séculos de sabedoria."
                 },
 
                 "3": {
                 "nivel":"Instruído",
-                "descricao": "Você é capaz de interpretar e analisar a sabedoria popular, reconhecendo padrões e significados ocultos."
+                "descricao": "Você é o guardião dos contos. Por onde  passa, coleta fragmentos de conhecimento. As  pessoas o procuram em busca de respostas para  seus dilemas"
                 },
 
                 "4": {
                 "nivel":"Erudito",
-                "descricao": "Você possui um vasto conhecimento de tradições e costumes populares, sendo capaz de ensinar outros sobre eles."
+                "descricao": "Sua reputação como especialista na sabedoria tradicional da sua área é bem conhecida.  Mesmo sem registrar nada em livros, você é  procurado por quem deseja aprender junto à sua  lareira"
                 },
 
                 "5": {
                 "nivel":"Sábio",
-                "descricao": "Sua compreensão da sabedoria popular é profunda, permitindo-lhe aplicar esse conhecimento em situações complexas e influenciar outros com suas histórias."
+                "descricao": "Embora famoso por tudo o que sabe, há murmúrios de que você sabe demais. Seu vasto acervo de saber influencia as novas gerações — você é o  almanaque delas."
                 }
             }
-        }
-    }       
-        
+        },
 
-        
-          
-        
-          
-        
+        "Investigação": {
+            "id": "investigacao",
+            "nome": "Investigação",
+            "tipo": "conhecimento",
+            "categoria": "academico",
+            "descricao": "Você conecta todos os fios, tecendo-os até revelar a tapeçaria da verdade.",
+
+            "escala":{
+                "1": {
+                "nivel":"Diletante",
+                "descricao": "Você desenterra os pequenos segredos ao seu redor — quem está cortejando, quem está traindo, quem mente e quem rouba."
+                },
+
+                "2": {
+                "nivel":"Estudante",
+                "descricao": "Você estudou a arte do questionamento. Sabe peneirar conversas para encontrar o núcleo da informação que precisa. Mistérios não duram muito ao seu redor."
+                },
+
+                "3": {
+                "nivel":"Instruído",
+                "descricao": " A investigação poderia ser sua profissão. É um talento aprimorado seu — e que deveria fazer amigos e parentes tremerem quando você o direciona a eles"
+                },
+
+                "4": {
+                "nivel":"Erudito",
+                "descricao": "Suas descobertas poderiam render um ou dois livros. Na verdade, alguns pagariam para que você não publicasse esse livro. Quem quer ver um segredo desenterrado — ou enterrado para sempre  procura o seu conselho."
+                },
+
+                "5": {
+                "nivel":"Sábio",
+                "descricao": "Você é o Mestre Espião. Possui uma rede de informantes; olhos e ouvidos alheios lhe trazem tudo. Se sua inclinação for religiosa, que os pagãos se cuidem. Se for política, os inimigos do Estado sempre olham por cima do ombro antes de falar — em vão."
+                }
+            }
+        },
+        "Direito": {
+            "id": "direito",
+            "nome": "Direito",
+            "tipo": "conhecimento",
+            "categoria": "academico",
+            "descricao": "Representa a capacidade de compreender e aplicar o conhecimento jurídico.",
+
+            "escala":{
+                "1": {
+                "nivel":"Diletante",
+                "descricao": "Você estuda avidamente as leis da sua cidade e do seu país. Conhece até os artigos mais obscuros e acompanha as rápidas mudanças no cenário jurídico."
+                },
+
+                "2": {
+                "nivel":"Estudante",
+                "descricao": "Você consegue com confiança defender alguém em um debate ou numa conversa casual, usando casos recentes para sustentar seu ponto de vista."
+                },
+
+                "3": {
+                "nivel":"Instruído",
+                "descricao": "Você poderia viver da advocacia. Seus conselhos jurídicos valem boas quantias. Quer defenda ricos ou pobres, é preciso um verdadeiro especialista para superá-lo num embate legal."
+                },
+
+                "4": {
+                "nivel":"Erudito",
+                "descricao": "Sua mente é uma biblioteca jurídica, capaz de citar decisões, capítulos e versículos desde os tempos de Justiniano. Você redige argumentos legais capazes de influenciar tanto reis quanto papas.."
+                },
+
+                "5": {
+                "nivel":"Sábio",
+                "descricao": "Precedente? Em muitos casos, foi você quem julgou as ações que o estabeleceram. Suas teorias jurídicas formaram a base de emendas subsequentes à lei"
+                }
+            }
+        },
+        "Medicina": {
+            "id": "medicina",
+            "nome": "Medicina",
+            "tipo": "conhecimento",
+            "categoria": "academico",
+            "descricao": "Representa a capacidade de compreender e aplicar o conhecimento médico.",
+
+            "escala":{
+                "1": {
+                "nivel":"Diletante",
+                "descricao": "Você dá conta de pequenos ferimentos — cortes, arranhões, imobilizações de membros quebrados. Conhece o jargão básico para descrever doenças."
+                },
+
+                "2": {
+                "nivel":"Estudante",
+                "descricao": "Em emergências, é bom ter você por perto. Seu tratamento pode afastar a foice da Morte por tempo suficiente para que um profissional de verdade chegue."
+                },
+
+                "3": {
+                "nivel":"Instruído",
+                "descricao": "Seu trabalho é curar — como médico, ama de leite ou cirurgião. É um de seus talentos principais, e você dedica bastante tempo à leitura e testes de novos tratamentos."
+                },
+
+                "4": {
+                "nivel":"Erudito",
+                "descricao": "Seu trabalho levou a várias descobertas médicas relevantes, e todos ao seu redor usufruem de mais vitalidade e longevidade."
+                },
+
+                "5": {
+                "nivel":"Sábio",
+                "descricao": "Cuidado, ó Morte, pois seu oponente chegou. Tocar os doentes traz alívio quase imediato. Seus diagnósticos certeiros tranquilizam aqueles que trazem entes queridos até você."
+                }
+            }
+        },
+        "Ocultismo": {
+            "id": "ocultismo",
+            "nome": "Ocultismo",
+            "tipo": "conhecimento",
+            "categoria": "academico",
+            "descricao": "Representa a capacidade de compreender e aplicar o conhecimento oculto e esotérico.",
+
+            "escala":{
+                "1": {
+                "nivel":"Diletante",
+                "descricao": "Você consegue reconhecer a presença do oculto ao seu redor e tem um entendimento básico das manifestações sobrenaturais mais comuns."
+                },
+
+                "2": {
+                "nivel":"Estudante",
+                "descricao": "Você se dedicou ao estudo do oculto, o que pode levá-lo a esbarrar em poderes além da sua compreensão. Suas conclusões nem sempre são perfeitas."
+                },
+
+                "3": {
+                "nivel":"Instruído",
+                "descricao": "Você cultiva uma aura de mistério, o que lhe permite vender respostas de natureza oculta àqueles que as buscam. Se algumas estiverem erradas… bem, quem conhece todos os segredos?"
+                },
+
+                "4": {
+                "nivel":"Erudito",
+                "descricao": "Os mistérios do mundo invisível guardam poucos segredos para você. Você escreveu diversos livros sobre o assunto, sendo consultado como autoridade por aqueles que temem compreender aquilo com que estão lidando."
+                },
+
+                "5": {
+                "nivel":"Sábio",
+                "descricao": " Você aconselha reis e papas com grande autoridade. Seja diante de camponesas com visões ou de casos de possessão demoníaca, seu nome é chamado com presteza. Naturalmente, quanto mais importância você adquire, mais atenção atrai dos próprios seres que você revela."
+                }
+            }
+        },
+        "Politica": {
+            "id": "politica",
+            "nome": "Política",
+            "tipo": "conhecimento",
+            "categoria": "academico",
+            "descricao": "A política de alto nível é uma mistura de diplomacia e influência habilmente exercida",
+
+            "escala":{
+                "1": {
+                "nivel":"Diletante",
+                "descricao": "Você entende as maquinações básicas do governo. Sabe agitar ou acalmar as pessoas conforme necessário para atingir seus objetivos."
+                },
+
+                "2": {
+                "nivel":"Estudante",
+                "descricao": "Você ocupa um cargo de pouca expressão em âmbito local. Pessoas influentes conhecem seu nome e o observam. Sua autoridade é respeitável, mas você é cuidadoso para não forçar demais."
+                },
+
+                "3": {
+                "nivel":"Instruído",
+                "descricao": "Independentemente do nível em que atua, você é um jogador político astuto — um escalador experiente que acumula influência e poder com precisão. Comunica-se com igual desenvoltura tanto com plebeus quanto com nobres."
+                },
+
+                "4": {
+                "nivel":"Erudito",
+                "descricao": "Você é uma liderança reconhecida, e seu nome é reverenciado. Seu lugar nos anais da história pode ser grandioso. Ainda assim, é preciso estar sempre atento: há sempre alguém em ascensão, pronto para derrubá-lo."
+                },
+
+                "5": {
+                "nivel":"Sábio",
+                "descricao": "Você é uma lenda, e seu domínio sobre suas terras e súditos é incontestado. Sua habilidade política é tão refinada que raramente alguém percebe estar sendo manipulado para servir aos seus propósitos."
+                }
+            }
+        },
+        "Senescalia": {
+            "id": "senescalia",
+            "nome": "Senescalia",
+            "tipo": "conhecimento",
+            "categoria": "academico",
+            "descricao": "Representa a capacidade de administrar e gerenciar assuntos domésticos e administrativos.",
+
+            "escala":{
+                "1": {
+                "nivel":"Diletante",
+                "descricao": "Você consegue administrar uma pequena casa com 3 a 5 pessoas, mantendo os suprimentos e garantindo padrões apresentáveis"
+                },
+
+                "2": {
+                "nivel":"Estudante",
+                "descricao": "Você gerencia uma modesta mansão ou supervisiona um pequeno negócio. Domina a contabilidade de dupla entrada e outras habilidades fundamentais."
+                },
+
+                "3": {
+                "nivel":"Instruído",
+                "descricao": "Várias propriedades estão sob seus cuidados, e seu planejamento exemplar garante pão mesmo em tempos de escassez por guerra ou fome."
+                },
+
+                "4": {
+                "nivel":"Erudito",
+                "descricao": "Você é o autor do manual sobre como administrar uma casa. Nenhum detalhe lhe escapa. Quando hospeda reis e rainhas, cada pequeno aspecto importa"
+                },
+
+                "5": {
+                "nivel":"Sábio",
+                "descricao": "Sem exagero, você transforma um pão em dois e dobra o tamanho da adega com uma simples palavra. Lordes e damas pagam uma fortuna por seus serviços na administração de seus grandes domínios."
+                }
+            }
+        },
+        "Teologia": {
+            "id": "teologia",
+            "nome": "Teologia",
+            "tipo": "conhecimento",
+            "categoria": "academico",
+            "descricao": "Representa a capacidade de compreender e aplicar o conhecimento religioso e espiritual.",
+
+            "escala":{
+                "1": {
+                "nivel":"Diletante",
+                "descricao": "Sua compreensão da religião é relativamente vaga. Você crê e compreende os princípios básicos — os mandamentos, as normas, as práticas. Consegue sustentar uma conversa religiosa, articulando suas convicções de forma razoável."
+                },
+
+                "2": {
+                "nivel":"Estudante",
+                "descricao": "Você leu os livros sagrados de sua fé. Consegue debater religião (na medida em que seu meio permite) e redigir um tratado religioso competente.."
+                },
+
+                "3": {
+                "nivel":"Instruído",
+                "descricao": "Seu conhecimento sobre outras religiões é sólido, mesmo que discorde delas. Com alguma frequência, é convidado a se pronunciar oficialmente perante os fiéis da sua crença."
+                },
+
+                "4": {
+                "nivel":"Erudito",
+                "descricao": "Você contribuiu significativamente para a doutrina. Suas palavras têm peso: podem arrecadar fundos para uma catedral ou mesquita, incitar violência contra hereges ou inspirar fervor espiritual nas multidões."
+                },
+
+                "5": {
+                "nivel":"Sábio",
+                "descricao": "Você desvelou camadas da fé que outros apenas sonham compreender. É considerado um orador de honra em seu fórum de escolha — esteja esse púlpito onde estiver."
+                }
+            }
+        },
+
+        "Extras": {
+              "limite":3,
+              "permitido": true
+            }
+        }
+     
 
             

@@ -1,0 +1,153 @@
+#Antecedentes
+
+"Antecedentes":{
+    "maximo":9,
+    "descricao": "Antecedentes descrevem vantagens relacionadas a relacionamentos, circunstâncias, posses materiais e oportunidades. São Características externas, e você deve sempre justificar como os adquiriu e o que eles representam dentro da narrativa.",
+    "Vantagens"{
+        
+        "Aliados":{
+            "descricao": "Aliados são pessoas que podem ajudá-lo, seja com informações, recursos ou apoio em momentos de necessidade. Eles podem ser amigos, colegas de trabalho, ou qualquer pessoa que tenha um vínculo positivo com você.",
+            "maximo": 9,
+            "nivel": {
+                "1": "Um aliado com influência e poder moderados",
+                "2": "Dois aliados, ambos com poder moderado",
+                "3": "Três aliados, sendo um deles bastante influente",
+                "4": "Quatro aliados, sendo um deles muito influente",
+                "5": "Cinco aliados, sendo um deles extremamente influente"
+            }
+            
+        },
+
+        "Identidade alternativa"{
+            "descricao": "Uma identidade alternativa permite que você se mova entre diferentes círculos sociais ou profissionais sem ser reconhecido. Isso pode incluir um nome falso, uma profissão diferente, ou uma vida completamente separada da sua identidade principal.",
+            "maximo": 9,
+            "nivel": {
+                "1": "Você é novo nesse jogo de identidades. Às vezes, escorrega e se esquece de qual persona está interpretando.",
+                "2": "Você está bem estabelecido em sua identidade alternativa. Convence ao representar figuras como médicos, sacerdotes, nobres, diplomatas ou outras posições privilegiadas.",
+                "3": "Sua persona alternativa tem boa reputação e é reconhecida na área onde você se infiltrou.",
+                "4": "Sua identidade é respeitada e confiável dentro da área de atuação.",
+                "5": "Você impõe respeito na sua área de infiltração e pode até ter acumulado certa influência. Você possui a confiança (ou ao menos o reconhecimento) de indivíduos poderosos da região."
+            }
+        },
+
+        "Contatos"{
+            "descricao": "Contatos são pessoas que fornecem informações, recursos ou acesso a lugares e eventos. Eles podem ser informantes, colegas de profissão, ou qualquer pessoa que tenha conhecimento valioso para você.",
+            "maximo": 9,
+            "nivel": {
+                "1": "Um contato principal",
+                "2": "Dois contatos prinicpais",
+                "3": "Três contatos principais",
+                "4": "Quatro contatos principais",
+                "5": "Cinco contatos principais"
+            }
+        },
+
+        "Dominio":{
+            "descricao": "Domínio representa o território físico que seu personagem controla para fins de alimentação ",
+            "maximo": 9,
+            "nivel": {
+                "1": "Um pequeno edifício, como uma casa de uma família só ou um estabelecimento social — suficiente para um refúgio básico.",
+                "2": "Uma igreja, mansão ou outra grande estrutura — um local com acesso fácil (mas controlado) ao mundo exterior.",
+                "3": "Um bairro da cidade — uma área que oferece esconderijos e controle de acesso.",
+                "4": "Uma catacumba, uma rede de túneis ou um enclave de casas em uma colina com vista para a cidade — um lugar com características naturalmente protetoras, como acesso exclusivo por pontes ou vigilância privada.",
+                "5": "Um bairro inteiro, um gueto étnico ou uma vila inteira."
+            }
+        },
+
+        "Fama":{
+            "descricao": "Fama representa o quanto seu personagem é conhecido e reconhecido dentro da sociedade mortal. Isso pode incluir notoriedade, respeito ou medo.",
+            "maximo": 9,
+            "nivel": {
+                "1": "Você é conhecido por uma subcultura específica — artistas locais, acadêmicos ou nobres.",
+                "2": "Pessoas começam a reconhecer seu rosto; você é uma celebridade menor, como um pequeno criminoso ou músico local.",
+                "3": "Você tem renome considerável; talvez seja um diplomata de sucesso ou um artista que se apresenta com frequência para a nobreza.",
+                "4": "Uma celebridade em plena ascensão; seu nome é frequentemente reconhecido por pessoas comuns nas ruas.",
+                "5": "Você é tão famoso que algumas pessoas chegam a dar seu nome a seus filhos."
+            }
+        },
+
+        "Geração"{
+            "descricao": "Geração representa a distância do seu personagem em relação ao primeiro vampiro, Caim. Quanto menor a geração, mais próximo você está de Caim e mais poder você possui.",
+            "maximo": 9,
+            "nivel": {
+                "1": "11ª Geração: 12 Pontos de Sangue, pode gastar 1 Ponto de Sangue por turno",
+                "2": "10ª Geração: 13 Pontos de Sangue, pode gastar 1 Ponto de Sangue por turno",
+                "3": "9ª Geração: 14 Pontos de Sangue, pode gastar 2 Pontos de Sangue por turno",
+                "4": "8ª Geração: 15 Pontos de Sangue, pode gastar 3 Pontos de Sangue por turno",
+                "5": "7ª Geração: 16 Pontos de Sangue, pode gastar 4 Pontos de Sangue por turno, e pode possuir Atributos ou Habilidades de até 6 pontos"
+            }
+        },
+
+        "Rebanho":{
+            "descricao": "Rebanho representa o número de mortais que seu personagem controla ou influencia. Seu nível em Rebanho é adicionado como dados aos seus testes de caça.",
+            "maximo": 9,
+            "nivel": {
+                "1": "3 fontes de sangue",
+                "2": "7 fontes de sangue",
+                "3": "15 fontes de sangue",
+                "4": "30 fontes de sangue",
+                "5": "70 fontes de sangue"
+            }
+        },
+
+        "Influencia":{
+            "descricao": "Influência representa o poder que seu personagem exerce sobre os outros, seja através de persuasão, intimidação ou manipulação.",
+            "maximo": 9,
+            "nivel": {
+                "1": "Você tem alguma influência em um pequeno grupo de pessoas.",
+                "2": "Você é respeitado em sua comunidade local.",
+                "3": "Você tem influência significativa em uma cidade ou região.",
+                "4": "Você é uma figura de autoridade reconhecida em várias cidades.",
+                "5": "Influência vasta; um nome presente nas decisões políticas do mundo conhecido"      
+
+            }
+        },
+
+        "Mentor":{
+            "descricao": "Mentor representa uma figura que guia e ensina seu personagem, oferecendo conselhos, treinamento e apoio.",
+            "maximo": 9,
+            "nivel": {
+                "1": "O Mentor é um ancilla com pouca influência.",
+                "2": "O Mentor é respeitado — um Ancião ou veterano altamente condecorado",
+                "3": "O Mentor é amplamente influente, como um conselheiro de Príncipe.",
+                "4": "O Mentor detém grande poder sobre a cidade, como um Senescal ou Xerife",
+                "5": "O Mentor é extraordinariamente poderoso — talvez até um Príncipe"
+            }
+        },
+
+        "Recursos":{
+            "descricao": "Recursos representam a riqueza e os bens materiais que seu personagem possui, incluindo propriedades, dinheiro e outros ativos valiosos.",
+            "maximo": 9,
+            "nivel": {
+                "1": "Suficiente. Você consegue manter uma residência típica ao estilo da classe trabalhadora com estabilidade, ainda que raramente se permita extravagâncias.",
+                "2": "Moderado. Você se apresenta como um membro respeitável da classe mercante, com presentes ocasionais e indulgências compatíveis com alguém de posição superior. Pode manter um servo ou contratar ajuda específica quando necessário. Parte de seus ativos está disponível em moeda, ouro, bens portáteis (como joias) e outros itens valiosos, permitindo que você mantenha um padrão de vida equivalente a 1 ponto em Recursos onde quer que esteja, por até seis meses.",
+                "3": "Confortável. Você é um membro estabelecido e influente em sua comunidade, com propriedades e uma residência própria. Provavelmente tem mais capital investido em bens imóveis e patrimônio do que em dinheiro à mão. Pode manter um estilo de vida equivalente a 1 ponto em Recursos em qualquer lugar, pelo tempo que desejar",
+                "4": "Rico. Você raramente lida com ouro diretamente, pois a maior parte de seus ativos está em formas tangíveis mais valiosas e estáveis do que moeda. Detém mais riqueza que muitos de seus pares locais. Mesmo quando não dedica atenção ativa à sua renda, é capaz de manter uma existência de 3 pontos em Recursos por até um ano, e de 2 pontos indefinidamente.",
+                "5": "Extremamente Rico. Você é o ideal que outros aspiram alcançar — ao menos no imaginário popular. Possui ativos vastos e amplamente distribuídos, talvez atrelados ao destino de nações, cada qual com grandes equipes e conexões em todos os níveis da sociedade de uma região. Você viaja com, no mínimo, conforto equivalente a 3 pontos em Recursos — ou mais, com um pequeno esforço."
+            }
+        },
+
+        "Lacaios":{
+            "descricao": "Lacaios são indivíduos que servem seu personagem, seja por lealdade, medo ou manipulação. Eles podem ser empregados, seguidores ou qualquer pessoa que esteja sob seu controle.",
+            "maximo": 9,
+            "nivel": {
+                "1": "Um lacaio",
+                "2": "Dois lacaios",
+                "3": "Três lacaios",
+                "4": "Quatro lacaios",
+                "5": "Cinco lacaios"
+            }
+        },
+
+        "Status":{
+            "descricao": "Status representa a posição social e o prestígio que seu personagem possui dentro da sociedade mortal. Isso pode incluir títulos, honrarias ou reconhecimento público.",
+            "maximo": 9,
+            "nivel": {
+                "1": "Conhecido: um Neófito reconhecido",
+                "2": "Respeitado: um Ancilla",
+                "3": "Influente: um Ancião",
+                "4": "Poderoso: um Ancião amplamente respeitado",
+                "5": "Luminar: um Príncipe ou outro líder Cainita"
+            }
+        }
+}

@@ -1,0 +1,62 @@
+#Virtudes
+
+"Virtudes":{
+    "descrição":"características de Virtude definem o código ético de um personagem e seu comprometimento com a moralidade escolhida."
+
+    "Características de Virtude":{
+        "Consciência/Convicção":{
+            "descrição":"A Consciência/Convicção de um personagem define o quanto ele é capaz de seguir seus princípios e manter sua integridade moral, mesmo diante de desafios e tentações."
+            "maximo":5,
+            "pontos":{
+                "1": "Indiferente / Arrependido",
+                "2": "Normal / Justo",
+                "3": "Ético / Ético",
+                "4": "Justo / Indiferente",
+                "5": "Arrependido / Insensível"
+            }
+        },
+        "Instinto/Auto-Controle":{
+            "descrição":"O Instinto/Auto-Controle de um personagem define sua capacidade de resistir a impulsos e agir de maneira racional, mesmo em situações de estresse ou perigo."
+            "maximo":5,
+            "pontos":{
+                "1": "Instável / Instável",
+                "2": "Animalístico / Normal",
+                "3": "Bestial / Moderado",
+                "4": "Primal / Firme",
+                "5": "Monstruoso / Domínio total de si"
+            }
+        },
+        "Coragem":{
+            "descrição":"A Coragem de um personagem define sua capacidade de enfrentar o medo e agir com bravura, mesmo diante de situações perigosas ou ameaçadoras."
+            "maximo":5,
+            "pontos":{
+                "1": "Tímido / Medroso",
+                "2": "Normal / Hesitante",
+                "3": "Ousado / Determinado",
+                "4": "Resoluto / Destemido",
+                "5": "Heroico / Implacável"
+            }
+        }
+    }
+},
+"Caminho": {}
+
+
+"Força de Vontade":{
+    "descrição": "Força de Vontade mede a determinação interior de um personagem e sua capacidade de superar adversidades. ",
+    "maximo": 10,
+    "niveis":{
+        "1": "Covarde",
+        "2": "Fraco",
+        "3": "Pouco assertivo",
+        "4": "Inseguro",
+        "5": "Convicto",
+        "6": "Confiante",
+        "7": "Determinado",
+        "8": "Controlado",
+        "9": "Vontade de ferro",
+        "10": "Inabalavel"
+        
+
+    }
+}
