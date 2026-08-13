@@ -1,0 +1,289 @@
+#Atributos
+{
+  "Atributos": {
+    "fisicos": {
+      "forca": {
+        "id": "forca",
+        "nome": "Força",
+        "tipo": "atributo",
+        "categoria": "fisico",
+        "descricao": "Representa a força física bruta do personagem.",
+
+        "escala": {
+          "1": {
+            "nivel": "Fraco",
+            "peso_kg": 20,
+            "descricao": "Alguns baldes de água já são o suficiente para fazê-lo suar. Ou, ao menos, para produzir algo que se assemelhe a suor."
+          },
+          "2": {
+            "nivel": "Mediano",
+            "peso_kg": 50,
+            "descricao": "As tarefas cotidianas dos mortais são viáveis — embora dificilmente você se rebaixaria a realizá-las."
+          },
+          "3": {
+            "nivel": "Bom",
+            "peso_kg": 100,
+            "descricao": "Acima da média, sua força chama atenção enquanto você manipula o mundo e os objetos ao seu redor"
+
+          },
+          "4": {
+            "nivel": "Excepcional",
+            "peso_kg": 200,
+            "descricao": "Sua força é marcante. Talvez você até tenha ganhado um apelido por causa dela"
+
+          },
+          "5": {
+            "nivel": "Extraordinário",
+            "peso_kg": 300,
+            "descricao": "Juramentos são feitos aos deuses da força quando você demonstra sua potência"
+          }
+        }
+      },
+      "Destreza": {
+        "id": "destreza",
+        "nome": "Destreza",
+        "tipo": "atributo",
+        "categoria": "fisico",
+        "descricao": "Representa a habilidade física e coordenação do personagem.",
+
+        "escala":{
+          "1": {
+            "nivel":"Fraco",
+            "descricao": "Ficar sobre um pé só já é um desafio. Para o bem de quem está ao seu redor, mantenha os dois pés no chão."
+          },
+          "2": {
+            "nivel":"Mediano",
+            "descricao": "Um nó mais complicado pode lhe causar dificuldades — mas é para isso que servem as facas."
+          },
+          "3": {
+            "nivel":"Bom",
+            "descricao": "Você domina seu corpo e se lança em saltos, caminhadas em vigas e arremessos de faca com precisão, hesitando apenas para garantir que o golpe acerte"
+          },
+          "4": {
+            "nivel":"Excepcional",
+            "descricao": "Dizem que você nasceu para dançar. Cada movimento e articulação é perfeitamente controlado. Entrar em espaços apertados é quase trivial."
+          },
+          "5": {
+            "nivel":"Extraordinário",
+            "descricao": "Tão fluido quanto o sangue que deseja, você desliza pela vida, contornando e superando qualquer obstáculo físico."
+          }
+        }
+      },
+      "Vigor": {
+        "id": "vigor",
+        "nome": "Vigor",
+        "tipo": "atributo",
+        "categoria": "fisico",
+        "descricao": "Representa a resistência física e saúde do personagem.",
+
+        "escala":{
+          "1": {
+            "nivel":"Fraco",
+            "descricao": "Como você sobreviveu à infância é um mistério. As marcas de uma doença crônica não lhe pouparam"
+          },
+          "2": {
+            "nivel":"Mediano",
+            "descricao": "Você sobrevive como os demais. Lealdade ou fervor podem levá-lo além de seus limites, mas, cedo ou tarde, você será forçado a parar. "
+          },
+          "3": {
+            "nivel":"Bom",
+            "descricao": "Grandes distâncias são difíceis, mas não intransponíveis — desde que você mantenha o ritmo. As doenças raramente o visitam"
+          },
+          "4": {
+            "nivel":"Excepcional",
+            "descricao": "Cidades tombam, arrasadas por epidemias. Companheiros urram de dor. Você mal começou a ranger os dentes."
+          },
+          "5": {
+            "nivel":"Extraordinário",
+            "descricao":"Cada provação alimenta sua tenacidade para resistir à próxima"
+          }
+        }
+      }
+    },
+    "Sociais": {
+      "Carisma": {
+        "id": "carisma",
+        "nome": "Carisma",
+        "tipo": "atributo",
+        "categoria": "social",
+        "descricao": "Representa a capacidade de liderança e influência do personagem.",
+
+        "escala":{
+          "1": {
+            "nivel":"Fraco",
+            "descricao": "Antes mesmo de abrir a boca, as pessoas já balançam a cabeça, recusando seus pedidos."
+
+          },
+          "2": {
+            "nivel":"Mediano",
+            "descricao": "Você consegue argumentar bem de vez em quando — mas não force a barra"
+          },
+          "3": {
+            "nivel":"Bom",
+            "descricao": "A sua presença é bem-vinda. As pessoas assentem com frequência quando você fala"
+          },
+          "4": {
+            "nivel":"Excepcional",
+            "descricao": "Muitos desejos seus podem ser pagos depois — e ninguém parece se importar com isso"
+          },
+          "5": {
+            "nivel":"Extraordinário",
+            "descricao": "Suspiros de adoração acompanham sua passagem pela multidão. O que você deseja? Já é seu. "
+        }
+      },
+      "Manipulação": {
+        "id": "manipulacao",
+        "nome": "Manipulação",
+        "tipo": "atributo",
+        "categoria": "social",
+        "descricao": "Representa a habilidade de persuasão e engano do personagem.",
+
+        "escala":{
+          "1": {
+            "nivel":"Fraco",
+            "descricao": "Até uma criança percebe seus truques. Divirta-se fazendo tudo sozinho"
+          },
+          "2": {
+            "nivel":"Mediano",
+            "descricao": "Você consegue argumentar bem de vez em quando — mas não force a barra"
+          },
+          "3": {
+            "nivel":"Bom",
+            "descricao": "Se você quer, você dá um jeito de conseguir. Quem se importa com a trilha de mágoas deixada para trás? "
+          },
+          "4": {
+            "nivel":"Excepcional",
+            "descricao": "Duplicidade escorre de sua língua como um idioma fluente. Dobrar vontades é tão natural quanto caminhar"
+          },
+          "5": {
+            "nivel":"Extraordinário",
+            "descricao": "Mesmo contra o bom senso, as pessoas fazem de tudo para agradá-lo"
+          }
+        }
+      },
+      "Aparência": {
+        "id": "aparencia",
+        "nome": "Aparência",
+        "tipo": "atributo",
+        "categoria": "social",
+        "descricao": "Representa a atratividade física e presença do personagem.",
+
+        "escala":{
+          "1": {
+            "nivel":"Fraco",
+            "descricao": "Você é feio, se veste mal — e, para piorar, talvez cheire mal também"
+          },
+          "2": {
+            "nivel":"Mediano",
+            "descricao": "Você se mistura na multidão. Talvez seja engraçado ou inteligente, o que ajuda"
+          },
+          "3": {
+            "nivel":"Bom",
+            "descricao": "As pessoas não se incomodam em serem vistas com você — ou em simplesmente te olhar."
+          },
+          "4": {
+            "nivel":"Excepcional",
+            "descricao": "Seu rosto define padrões de beleza para muitos"
+          },
+          "5": {
+            "nivel":"Extraordinário",
+            "descricao": "Sua presença deixa as pessoas boquiabertas. Quem sabe, talvez você cheire a pão quentinho"
+          }
+        }
+      }
+    },
+    "Mentais": {
+      "Percepção": {
+        "id": "percepcao",
+        "nome": "Percepção",
+        "tipo": "atributo",
+        "categoria": "mental",
+        "descricao": "Representa a capacidade de observação e detecção do personagem.",
+
+        "escala":{
+          "1": {
+            "nivel":"Fraco",
+            "descricao": "As coisas literalmente podem passar pelasua cabeça despercebidas."
+          },
+          "2": {
+            "nivel":"Mediano",
+            "descricao": "Se algo não tentar te evitar, você provavelmente o verá."
+          },
+          "3": {
+            "nivel":"Bom",
+            "descricao": "Não são apenas cortinas, são cortinas de seda. Mais para um verde-água, se você me perguntar"
+          },
+          "4": {
+            "nivel":"Excepcional",
+            "descricao": "Você absorve detalhes como humor, texturas, dimensões, materiais e cores sem esforço."
+          },
+          "5": {
+            "nivel":"Extraordinário",
+            "descricao": "Você percebe tudo. O fogo que devastou o pomar de maçãs na última temporada ainda está em seu nariz."
+          }
+        }
+      },
+      "Inteligencia": {
+        "id": "inteligencia",
+        "nome": "Inteligência",
+        "tipo": "atributo",
+        "categoria": "mental",
+        "descricao": "Representa a capacidade de raciocínio e aprendizado do personagem.",
+
+        "escala":{
+          "1": {
+            "nivel":"Fraco",
+            "descricao": "Uma vida simples é o melhor para você."
+          },
+          "2": {
+            "nivel":"Mediano",
+            "descricao": "Se lhe fizerem uma pergunta, sua resposta provavelmente será semelhante à de todos os outros na taverna"
+          },
+          "3": {
+            "nivel":"Bom",
+            "descricao": "As pessoas o procuram mais em busca de respostas do que aos seus colegas"
+          },
+          "4": {
+            "nivel":"Excepcional",
+            "descricao": "Você pode resolver quase qualquer problema colocado à sua frente"
+          },
+          "5": {
+            "nivel":"Extraordinário",
+            "descricao": "Algo pode até ser nomeado em sua homenagem no futuro, como um teorema ou uma escola de pensamento."
+          }
+        }
+      },
+      "Raciocinio": {
+        "id": "raciocinio",
+        "nome": "Raciocínio",
+        "tipo": "atributo",
+        "categoria": "mental",
+        "descricao": "Representa a capacidade de lógica e análise do personagem.",
+
+        "escala":{
+          "1": {
+            "nivel":"Fraco",
+            "descricao": "O que você deveria dizer? Uh… tarde demais, eles já foram embora."
+          },
+          "2": {
+            "nivel":"Mediano",
+            "descricao": "Você troca piadas e provocações com amigos e conhecidos"
+          },
+          "3": {
+            "nivel":"Bom",
+            "descricao": "Você geralmente consegue ter a palavra finale ri por último."
+          },
+          "4": {
+            "nivel":"Excepcional",
+            "descricao": "Você tem uma resposta para quase tudo."
+          },
+          "5": {
+            "nivel":"Extraordinário",
+            "descricao": "Sempre calmo. Sempre controlado. Sempre."
+          }
+        }
+      }
+    }
+  }
+
+}

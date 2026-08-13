@@ -1,0 +1,779 @@
+# Habilidades
+
+
+"Habilidades": {
+    "Talentos":{
+        "Prontidão": {
+            "id": "prontidao",
+            "nome": "Prontidão",
+            "tipo": "habilidade",
+            "categoria": "talento",
+            "descricao": "Representa a capacidade de reação rápida e agilidade do personagem.",
+
+            "escala":{
+            "1": {
+                "nivel":"Amador",
+                "descricao": "Você perceberia facilmente uma chuva forte começando a cair."
+            },
+            "2": {
+                "nivel":"Experiente",
+                "descricao": "Seus sentidos frequentemente captam sons, objetos ou cheiros que outros ignoram. "
+            },
+            "3": {
+                "nivel":"Competente",
+                "descricao": "Você é a pessoa que todos querem de vigia"
+            },
+            "4": {
+                "nivel":"Especialista",
+                "descricao": "Se algo pode ser notado, você nota."
+            },
+            "5": {
+                "nivel":"Mestre",
+                "descricao": "Nada escapa de você. Nada"
+            }
+            }
+        },
+        "Atletismo": {
+            "id": "atletismo",
+            "nome": "Atletismo",
+            "tipo": "habilidade",
+            "categoria": "talento",
+            "descricao": "Representa a capacidade física e resistência do personagem.",
+
+            "escala":{
+            "1": {
+                "nivel":"Amador",
+                "descricao": "Mover-se e usar seus músculos faz parte da sua rotina, e isso é visível."
+            },
+            "2": {
+                "nivel":"Experiente",
+                "descricao": "Competir em eventos locais não é problema para você. Você geralmente vence"
+            },
+            "3": {
+                "nivel":"Competente",
+                "descricao": "Em torneios, muitos o consideram um adversário digno, senão formidável."
+            },
+            "4": {
+                "nivel":"Especialista",
+                "descricao": "Você está no topo da sua área. Poucos conseguem competir com você e ter alguma chance."
+            },
+            "5": {
+                "nivel":"Mestre",
+                "descricao": "Você define o padrão de perfeição na arena"
+            }
+            }
+        },
+        "Presciencia": {
+            "id": "presciencia",
+            "nome": "Presciência",
+            "tipo": "habilidade",
+            "categoria": "talento",
+            "descricao": "Representa a capacidade de antecipar eventos e perceber perigos iminentes.",
+
+            "escala":{
+            "1": {
+                "nivel":"Amador",
+                "descricao": "Você se pega olhando por cima do ombro mais do que os outros. Nada físico está lá. Ainda assim, você não consegue deixar de se perguntar se não é só coisa da sua cabeça. "
+                },
+            "2": {
+                "nivel":"Experiente",
+                "descricao": " Você evita certas partes da floresta ou indivíduos. Algo neles o incomoda, e na maioria das vezes você tem provas para sustentar seus pressentimentos"
+                },
+            "3": {
+                "nivel":"Competente",
+                "descricao": "A sensação de desconforto se torna mais específica. Você consegue perceber quando algo sobrenatural está fora de lugar."
+                },
+            "4": {
+                "nivel":"Especialista",
+                "descricao": "Seus sentidos conseguem focar no que — ou em quem — é sobrenatural"
+                },
+            "5": {
+                "nivel":"Mestre",
+                "descricao": "Seu mundo é um onde fantasmas, demônios e coisas sem nome caminham pelas ruas junto de pessoas e animais."
+                }
+            }
+        },
+
+        "Briga": {
+            "id": "briga",
+            "nome": "Briga",
+            "tipo": "habilidade",
+            "categoria": "talento",
+            "descricao": "Representa a capacidade de combate corpo a corpo do personagem.",
+
+            "escala":{
+                "1": {
+                "nivel":"Amador",
+                "descricao": "Você consegue aguentar um ou dois socos"
+                },
+                "2": {
+                "nivel":"Experiente",
+                "descricao": "Você confia nas suas habilidades de briga e sabe que pode vencer. Se perder, o outro lutador sairá tão mal quanto você."
+                },
+                "3": {
+                "nivel":"Competente",
+                "descricao": "Você é habilidoso em combate corpo a corpo e pode vencer confrontos intensos com alguma dificuldade."
+                },
+                "4": {
+                "nivel":"Especialista",
+                "descricao": "Você é um mestre do combate corpo a corpo e pode vencer confrontos intensos com facilidade."
+                },
+                "5": {
+                "nivel":"Mestre",
+                "descricao": "Você é um lendário lutador e pode vencer qualquer adversário em combate corpo a corpo."
+                }
+            }
+        },
+        "Empatia": {
+            "id": "empatia",
+            "nome": "Empatia",
+            "tipo": "habilidade",
+            "categoria": "talento",
+            "descricao": "Representa a capacidade de compreender e se conectar com os sentimentos dos outros.",
+
+            "escala":{
+                "1": {
+                "nivel":"Amador",
+                "descricao": "Você consegue captar os sentimentos das pessoas por meio de gestos e expressões faciais."
+                },
+                "2": {
+                "nivel":"Experiente",
+                "descricao": "A forma como as pessoas falam pode, às vezes, dizer mais do que as palavras em si."
+                },
+                "3": {
+                "nivel":"Competente",
+                "descricao": "As emoções muitas vezes estão entrelaçadas. Você compreende isso e é perspicaz ao desenredá-las."
+                },
+                "4": {
+                "nivel":"Especialista",
+                "descricao": "Sua habilidade de enxergar o íntimo das psiques daqueles que encontra é impressionante."
+                },
+                "5": {
+                "nivel":"Mestre",
+                "descricao": "Você sabe o que reside nos corações daqueles ao seu redor. As emoções são tão reais e tangíveis para você quanto o chão sob seus pés. "
+                }
+            }
+        },
+        "Expressão": {
+            "id": "expressao",
+            "nome": "Expressão",
+            "tipo": "habilidade",
+            "categoria": "talento",
+            "descricao": "Representa a capacidade de se expressar e comunicar de forma eficaz.",
+
+            "escala":{
+                "1": {
+                "nivel":"Amador",
+                "descricao": "Você consegue apresentar seu ponto. Pode gaguejar um pouco, mas transmite a mensagem com certo estilo."
+                },
+                "2": {
+                "nivel":"Experiente",
+                "descricao": "Você domina a oratória. As pessoas frequentemente assentem enquanto você fala"
+                },
+                "3": {
+                "nivel":"Competente",
+                "descricao": "Suas habilidades oratórias lhe rendem benefícios em diversas situações. As pessoas não só querem ouvi-lo — muitas vezes pagam por isso."
+                },
+                "4": {
+                "nivel":"Especialista",
+                "descricao": "Seu estilo e modos de falar são bem conhecidos e eficazes. Muitos o imitam"
+                },
+                "5": {
+                "nivel":"Mestre",
+                "descricao": "Sua forma de apresentar seus argumentos os torna irrefutáveis. O discurso dura apenas alguns momentos até você sair vitorioso. "
+                }
+            }
+        },
+        "Intimidação": {
+            "id": "intimidacao",
+            "nome": "Intimidação",
+            "tipo": "habilidade",
+            "categoria": "talento",
+            "descricao": "Representa a capacidade de impor respeito e medo nos outros.",
+
+            "escala":{
+                "1": {
+                "nivel":"Amador",
+                "descricao": "Aqueles claramente abaixo de você facilmente sucumbem às suas ameaças"
+                },
+                "2": {
+                "nivel":"Experiente",
+                "descricao": "Você já cumpriu promessas antes. Os que o conhecem sabem disso — e reagem de acordo"
+                },
+                "3": {
+                "nivel":"Competente",
+                "descricao": "Sua presença cruel confere uma aura de autoridade. Poucos pensam em desafiá-la"
+                },
+                "4": {
+                "nivel":"Especialista",
+                "descricao": "O medo o precede. Amigos riem nervosamente à sua volta. Eles sabem como você “pede” as coisas."
+                },
+                "5": {
+                "nivel":"Mestre",
+                "descricao": " Aqueles que não se curvam serão quebrados. Você se encarregará disso — pessoalmente. Todos sabem. Um suor frio brota nas testas dos que tremem diante de você"
+                }
+            }
+        },
+        "Liderança": {
+            "id": "lideranca",
+            "nome": "Liderança",
+            "tipo": "habilidade",
+            "categoria": "talento",
+            "descricao": "Representa a capacidade de liderar e inspirar os outros.",
+
+            "escala":{
+                "1": {
+                "nivel":"Amador",
+                "descricao": "Você consegue reunir um pequeno grupo de seguidores de vez em quando, se a necessidade for extrema."
+                },
+                "2": {
+                "nivel":"Experiente",
+                "descricao": "As pessoas tendem a seguir você naturalmente em certas ocasiões"
+                },
+                "3": {
+                "nivel":"Competente",
+                "descricao": "Sua capacidade de liderar foi notada por superiores; você foi nomeado para um cargo de autoridade"
+                },
+                "4": {
+                "nivel":"Especialista",
+                "descricao": " Mais pessoas estão sob sua liderança do que outras acima de você na hierarquia"
+                },
+                "5": {
+                "nivel":"Mestre",
+                "descricao": "Se nações, facções ou exércitos precisam ser liderados, você está lá — pronto para guiá-los. Eles o seguem de bom grado, e você os conduz rumo a uma nova era"
+                }
+            }
+        },
+        "Prestidigitação": {
+            "id": "prestidigitacao",
+            "nome": "Prestidigitação",
+            "tipo": "habilidade",
+            "categoria": "talento",
+            "descricao": "Representa a habilidade de realizar truques e manipulações com destreza.",
+
+            "escala":{
+                "1": {
+                "nivel":"Amador",
+                "descricao": "Se algo desaparece quando ninguém está olhando, ninguém sabe quem pegou"
+                },
+                "2": {
+                "nivel":"Experiente",
+                "descricao": " Você consegue rolar uma moeda sobre os dedos com facilidade. De onde ela veio?"
+                },
+                "3": {
+                "nivel":"Competente",
+                "descricao": "Você manipula objetos para dentro ou fora de seus trajes com agilidade. Se consegue tocar, consegue levar"
+                },
+                "4": {
+                "nivel":"Especialista",
+                "descricao": "Seus movimentos são tão fluidos que as pessoas preferem acreditar que se trata de mágica real."
+                },
+                "5": {
+                "nivel":"Mestre",
+                "descricao": "Sua fama como trapaceiro é, às vezes, a única pista que o liga aos desaparecimentos mais intrigantes. Sorte a sua que nunca há prova"
+                }
+            }
+        },
+        "Lábia": {
+            "id": "labia",
+            "nome": "Lábia",
+            "tipo": "habilidade",
+            "categoria": "talento",
+            "descricao": "Representa a habilidade de persuadir e convencer os outros.",
+
+            "escala":{
+                "1": {
+                "nivel":"Amador",
+                "descricao": "Você consegue sustentar pequenas mentiras de curta duração."
+                },
+                "2": {
+                "nivel":"Experiente",
+                "descricao": "Sua habilidade em demonstrar convicção dissipa a maioria das dúvidas"
+                },
+                "3": {
+                "nivel":"Competente",
+                "descricao": "Mentir vem com a mesma naturalidade que dizer a verdade. Você sabe equilibrar verdades e inverdades para fazer os outros duvidarem de sua própria percepção, em vez de questionarem você."
+                },
+                "4": {
+                "nivel":"Especialista",
+                "descricao": "Mesmo sob pressão, você mantém o controle e a coerência da sua história."
+                },
+                "5": {
+                "nivel":"Mestre",
+                "descricao": "Sua confiança nas próprias palavras pesa mais do que aquilo que os outros sabem ser verdade"
+                }
+            }
+        },
+
+            "Extras": {
+            "limite":3,
+            "permitido": true
+            }      
+      
+        }
+     },
+    "Perícias": {
+        "Empatia c/ animais": {
+            "id": "empatia_animais",
+            "nome": "Empatia com Animais",
+            "tipo": "pericia",
+            "categoria": "social",
+            "descricao": "Representa a capacidade de compreender e se conectar com os animais.",
+
+            "escala":{
+                "1": {
+                "nivel":"Amador",
+                "descricao": "Você consegue acalmar um cão desconfiado ou tranquilizar um cavalo nervoso. Trabalhar com animais usados para o trabalho, como camelos e bois, é algo natural para você"
+                },
+
+                "2": {
+                "nivel":"Experiente",
+                "descricao": "Você consegue treinar animais domesticados como cães e cavalos. Aves de rapina retornam à sua luva ao serem chamadas"
+                },
+
+                "3": {
+                "nivel":"Competente",
+                "descricao": "Você atua como mestre de cães de uma casa ou oferece serviços como rastreador. Você conhece os hábitos da fauna selvagem da sua região e sabe como agir diante de comportamentos anormais ou agressivos."
+                },
+
+                "4": {
+                "nivel":"Especialista",
+                "descricao": "Você já domou cavalos considerados indomáveis. Feras selvagens podem não seguir suas ordens, mas permitem sua aproximação sem atacar. Em territórios desconhecidos, você aprende rapidamente os hábitos da vida selvagem local."
+                },
+
+                "5": {
+                "nivel":"Mestre",
+                "descricao": "Bestas obedecem aos seus gestos. Você pode fazer um cão leal atacar seu próprio dono num instante. Poderia até pastorear gatos, se assim desejasse. "
+                }
+            }
+        },
+
+        "Arqueirismo": {
+            "id": "arqueirismo",
+            "nome": "Arqueirismo",
+            "tipo": "pericia",
+            "categoria": "fisico",
+            "descricao": "Representa a habilidade de usar arcos e flechas com precisão.",
+
+            "escala":{
+
+                "1": {
+                "nivel":"Amador",
+                "descricao": "Você consegue acertar com consistência alvos imóveis a curta distância"
+                },
+
+                "2": {
+                "nivel":"Experiente",
+                "descricao": "Você acerta alvos em movimento e é capaz de fazer a manutenção e o conserto do seu arco."
+                },
+
+                "3": {
+                "nivel":"Competente",
+                "descricao": "Você acerta alvos mesmo em movimento. Alimenta sua família com suas caçadas, venceu algumas competições locais de arquearia e consegue fabricar arcos simples"
+                },
+
+                "4": {
+                "nivel":"Especialista",
+                "descricao": "Você acerta alvos enquanto ambos — você e o alvo — estão em movimento. É proficiente com diversos tipos de arco e sabe fabricá-los."
+                },
+
+                "5": {
+                "nivel":"Mestre",
+                "descricao": "Dizem que não dá para disparar em curvas. É que eles ainda não conhecem você. "
+                
+                }
+            }
+        },
+        "Comércio": {
+            "id": "comercio",
+            "nome": "Comércio",
+            "tipo": "pericia",
+            "categoria": "social",
+            "descricao": "Representa a habilidade de negociar e comerciar efetivamente.",
+
+            "escala":{
+                "1": {
+                "nivel":"Amador",
+                "descricao": "Você consegue negociar com comerciantes locais e garantir um lucro razoável."
+                },
+
+                "2": {
+                "nivel":"Experiente",
+                "descricao": "Você administra um pequeno negócio e sabe a quem recorrer para conseguir itens difíceis de encontrar"
+                },
+
+                "3": {
+                "nivel":"Competente",
+                "descricao": "Seu comércio gera lucros consistentes. Em negociações, você geralmente obtém condições vantajosas"
+                },
+
+                "4": {
+                "nivel":"Especialista",
+                "descricao": " Seus serviços são requisitados por quem precisa importar ou exportar mercadorias. Você administra um negócio próspero e conhece bem as rotas comerciais de seus produtos."
+                },
+
+                "5": {
+                "nivel":"Mestre",
+                "descricao": " Todas as rotas comerciais levam até você. Você controla um vasto império comercial, e suas ações reverberam pelo mundo."
+                }
+            }
+        },
+
+        "Ofícios": {
+            "id": "oficios",
+            "nome": "Ofícios",
+            "tipo": "pericia",
+            "categoria": "social",
+            "descricao": "Representa a habilidade de realizar trabalhos manuais e artesanais com destreza.",
+
+            "escala":{
+                "1": {
+                "nivel":"Amador",
+                "descricao": " Suas criações são funcionais. As armas que você fabrica são úteis, embora simples, e as roupas que faz protegem do frio. Você consegue reparar itens em seu Campo de Especialização."
+                },
+
+                "2": {
+                "nivel":"Experiente",
+                "descricao": "Você consegue lucrar com seus trabalhos manuais. Os produtos que cria são tanto funcionais quanto esteticamente agradáveis"
+                 },
+
+                "3": {
+                "nivel":"Competente",
+                "descricao": "Você consegue sustentar-se com seu ofício. Pessoas de cidades vizinhas procuram seus serviços. Talvez até possua um patrono que encomende seu trabalho"
+                },
+
+                 "4": {
+                "nivel":"Especialista",
+                "descricao": "Estudantes procuram você para aprender seus métodos. Suas criações são duráveis, funcionais e belas"
+                 },
+
+                 "5": {
+                "nivel":"Mestre",
+                "descricao": " Suas obras são absolutamente impecáveis, como se forjadas por mãos divinas. Os itens que você cria durarão centenas, talvez milhares de anos"
+                }
+            }
+        },
+
+        "Etiqueta": {
+            "id": "etiqueta",
+            "nome": "Etiqueta",
+            "tipo": "pericia",
+            "categoria": "social",
+            "descricao": "Representa a habilidade de se comportar adequadamente em diferentes situações sociais.",
+
+            "escala":{
+                 "1": {
+                "nivel":"Amador",
+                "descricao": "Você consegue comparecer a um evento em sua cultura sem se envergonhar, e é capaz de recuperar-se com elegância de pequenos deslizes"
+                 },
+
+                "2": {
+                "nivel":"Experiente",
+                "descricao": "Você consegue interagir com naturalidade nas camadas superiores da sociedade à qual pertence. "
+                 },
+                 
+                 "3": {
+                "nivel":"Competente",
+                "descricao": "Diante de circunstâncias desconhecidas, você sabe observar o comportamento alheio e se adequar com propriedade"
+                 },
+
+                "4": {
+                "nivel":"Especialista",
+                "descricao": "Sua companhia é valorizada por pessoas de todas as esferas sociais. Crianças e neófitos são instruídos a seguir seu exemplo"
+                 },
+
+                "5": {
+                "nivel":"Mestre",
+                "descricao": "Não existe ambiente que você não consiga decifrar, nem costume tão obscuro que lhe escape. Você capta até as nuances mais sutis — e age de acordo"
+                }
+            }
+        },
+
+        "Armas Brancas": {
+            "id": "armas_brancas",
+            "nome": "Armas Brancas",
+            "tipo": "pericia",
+            "categoria": "fisico",
+            "descricao": "Representa a habilidade de usar armas brancas com precisão e eficácia.",
+
+            "escala":{
+                "1": {
+                "nivel":"Amador",
+                "descricao": "Você entende o básico: enfiar a ponta afiada no inimigo. Consegue manter suas armas em bom estado. "
+                },
+
+                "2": {
+                "nivel":"Experiente",
+                "descricao": "Você pode vencer uma luta um contra um enfrentando alguém de habilidade similar. É capaz de consertar suas armas."
+                },
+
+                "3": {
+                "nivel":"Competente",
+                "descricao": "Você poderia alistar-se como soldado ou trabalhar como guarda pessoal. Tem familiaridade com várias armas distintas e sabe fabricar armamentos funcionais."
+                },
+                
+                 "4": {
+                "nivel":"Especialista",
+                "descricao": "Você poderia participar e vencer combates em torneios. É um adversário temido no campo de batalha. As armas que você cria não são apenas resistentes, mas também elegantes"
+                },
+
+                "5": {
+                "nivel":"Mestre",
+                "descricao": "Você é praticamente imbatível em combate e domina diversos tipos de armamento. Suas criações serão utilizadas e admiradas por séculos"
+                }
+            }
+        },
+
+        "Performace": {
+            "id": "performance",
+            "nome": "Performance",
+            "tipo": "pericia",
+            "categoria": "social",
+            "descricao": "Representa a habilidade de se apresentar e entreter os outros.",
+
+            "escala":{
+                "1": {
+                "nivel":"Amador",
+                "descricao": "Você consegue entoar uma melodia ou representar uma cena sem tropeçar nas falas."
+                },
+
+                "2": {
+                "nivel":"Experiente",
+                "descricao": "Você é frequentemente convidado a demonstrar seu talento para a comunidade local."
+                },
+
+                "3": {
+                "nivel":"Competente",
+                "descricao": "Você consegue se sustentar com sua arte. Pessoas de cidades vizinhas vêm assistir às suas apresentações."
+                },
+
+                "4": {
+                "nivel":"Especialista",
+                "descricao": "Você atrai grandes multidões ao se apresentar fora de sua região natal e vive confortavelmente com os lucros de sua arte."
+                },
+
+                "5": {
+                "nivel":"Mestre",
+                "descricao": "Suas performances são capazes de fazer os anjos chorarem. Há quem diga que você já conseguiu isso."
+                }
+             }
+        },
+        "Calvalgar": {
+            "id": "cavalgar",
+            "nome": "Cavalgar",
+            "tipo": "pericia",
+            "categoria": "fisico",
+            "descricao": "Representa a habilidade de montar e controlar animais de montaria.",
+
+            "escala":{
+              "1": {
+                "nivel":"Amador",
+                "descricao": "Você consegue montar um cavalo e fazêlo responder a comandos simples."
+              },
+              "2": {
+                "nivel":"Experiente",
+                "descricao": "Você consegue manter-se na sela se o cavalo se assustar. Está habituado a longas cavalgadas e conhece bem os diferentes andamentos do animal, desde que o terreno não seja muito desafiador."
+              },
+              "3": {
+                "nivel":"Competente",
+                "descricao": "Você é capaz de lutar a cavalo. Terrenos difíceis não comprometem sua estabilidade na sela."
+              },
+              "4": {
+                "nivel":"Especialista",
+                "descricao": "Você conduz seu cavalo por manobras complexas e mantém a calma do animal mesmo em meio ao caos da batalha. É conhecido como um dos melhores cavaleiros da região"
+              },
+              "5": {
+                "nivel":"Mestre",
+                "descricao": "Você e sua montaria se movem em perfeita harmonia. Quase não é preciso mover as rédeas ou as pernas para que o animal obedeça a seus comandos."
+              }
+            }
+        },
+        "Furtividade": {
+            "id": "furtividade",
+            "nome": "Furtividade",
+            "tipo": "pericia",
+            "categoria": "fisico",
+            "descricao": "Representa a habilidade de se mover silenciosamente e evitar ser detectado.",
+
+            "escala":{
+                "1": {
+                "nivel":"Amador",
+                "descricao": "Você consegue se mover sem ser detectado, desde que ninguém esteja procurando por você."
+                 },
+
+                "2": {
+                "nivel":"Experiente",
+                "descricao": "Você conhece os melhores esconderijos em sua cidade natal e consegue se misturar em multidões compostas por pessoas da sua cultura e classe social. "
+                },
+
+                "3": {
+                "nivel":"Competente",
+                "descricao": "Você desaparece mesmo quando há quem esteja ativamente à sua procura. Barreiras contra invasores são, para você, meros convites"
+                 },
+
+                 "4": {
+                "nivel":"Especialista",
+                "descricao": "Você poderia provocar seus alvos se quisesse — e sumir novamente antes que pisquem os olhos"
+                },
+
+                "5": {
+                "nivel":"Mestre",
+                "descricao": "Você nunca esteve lá. Ninguém jamais viu você. Já se infiltrou em fortalezas protegidas e participou das reuniões mais secretas. Seu nome é pronunciado com reverência entre salteadores e com inquietação entre os guardas da lei."
+                }
+            }
+        },
+        "Sobrevivencia": {
+            "id": "sobrevivencia",
+            "nome": "Sobrevivência",
+            "tipo": "pericia",
+            "categoria": "fisico",
+            "descricao": "Representa a habilidade de sobreviver em ambientes hostis e adversos.",
+
+            "escala":{
+                "1": {
+                "nivel":"Amador",
+                "descricao": "Você sabe como se orientar em sua região. Com suprimentos adequados, conseguiria passar algumas noites ao ar livre em clima ameno"
+                },
+
+                "2": {
+                "nivel":"Experiente",
+                "descricao": "Você consegue montar um abrigo rudimentar e encontrar alimento suficiente, desde que esteja em um ambiente familiar."
+                },
+
+                "3": {
+                "nivel":"Competente",
+                "descricao": "Você é capaz de manter um grupo alimentado e aquecido em regiões selvagens. Costuma ser solicitado como guia por viajantes que desconhecem a área"
+                },
+
+                "4": {
+                "nivel":"Especialista",
+                "descricao": "Nenhum terreno representa um grande desafio para você. Pode ganhar a vida conduzindo pessoas com segurança. Se desejasse, poderia viver exclusivamente dos recursos naturais"
+                },
+
+                "5": {
+                "nivel":"Mestre",
+                "descricao": "Nevascas furiosas, mares revoltos e estepes sem fim já tentaram seu pior — e você resistiu a tudo."
+                }
+            }
+        },
+
+            "Extras": {
+              "limite":3,
+              "permitido": true
+            }
+        },
+    
+
+    "Conhecimentos":{
+        "Instrução": {
+            "id": "instrucao",
+            "nome": "Instrução",
+            "tipo": "conhecimento",
+            "categoria": "academico",
+            "descricao": "Representa a capacidade de adquirir e aplicar conhecimento acadêmico.",
+
+            "escala":{
+                "1": {
+                "nivel":"Diletante",
+                "descricao": "Seu latim ainda precisa melhorar, mas você consegue se expressar. Você arranhou a superfície de seu campo de estudo e já acumulou conhecimento suficiente para não soar tolo"
+                },
+
+                "2": {
+                "nivel":"Estudante",
+                "descricao": "Você leu os livros certos e domina bem o seu campo. Consegue argumentar com competência dentro da sua área"
+                },
+
+                "3": {
+                "nivel":"Instruído",
+                "descricao": "De aluno, você passou a professor. Pode instruir qualquer interessado no seu campo de saber. Já é reconhecido como um acadêmico."
+                },
+
+                "4": {
+                "nivel":"Erudito",
+                "descricao": "Você dedicou sua vida acadêmica ao seu tema, deixando de lado outros interesses. Nenhum fato é obscuro demais para seu repertório"
+                },
+
+                "5": {
+                "nivel":"Sábio",
+                "descricao": "Você escreveu diversos livros sobre seu tema, citados por estudiosos da área. Sua eloquência é lendária, e seu nome é disputado como palestrante entre os círculos eruditos."
+                }
+            }
+        },
+        "Enigmas":{
+            "id": "enigmas",
+            "nome": "Enigmas",
+            "tipo": "conhecimento",
+            "categoria": "academico",
+            "descricao": "Representa a capacidade de resolver enigmas e decifrar códigos.",
+
+            "escala":{
+                "1": {
+                "nivel":"Diletante",
+                "descricao": "Aqueles quebra-cabeças de madeira e corda não são páreo para você. Você se diverte confundindo os outros e consegue criar criptogramas simples e jogos de palavras."
+                },
+
+                "2": {
+                "nivel":"Estudante",
+                "descricao": "Dadas algumas horas, quase nenhum código resiste à sua análise."
+                },
+
+                "3": {
+                "nivel":"Instruído",
+                "descricao": "Pessoas o procuram para interpretar sonhos ou decifrar bilhetes de um amor proibido. Você escreveu uma obra de referência sobre simbolismo em sua área."
+                },
+
+                "4": {
+                "nivel":"Erudito",
+                "descricao": "Seus diários são escritos em códigos espontâneos e deixarão estudiosos perplexos mesmo após séculos."
+                },
+
+                "5": {
+                "nivel":"Sábio",
+                "descricao": "Seus enigmas exigem uma chave ou uma mente à altura da sua para serem resolvidos. Se você fosse trancado em uma caixa, sua mente ainda encontraria maneiras de se entreter indefinidamente."
+                }
+            }
+        },
+        "Sabedoria popular":{
+            "id": "sabedoria_popular",
+            "nome": "Sabedoria Popular",
+            "tipo": "conhecimento",
+            "categoria": "academico",
+            "descricao": "Representa a capacidade de compreender e aplicar o conhecimento popular e tradicional.",
+
+            "escala":{
+                "1": {
+                "nivel":"Diletante",
+                "descricao": "Você conhece algumas histórias e lendas locais, mas ainda não as domina completamente."
+                },
+
+                "2": {
+                "nivel":"Estudante",
+                "descricao": "Você consegue contar histórias populares com precisão e entende seu significado cultural."
+                },
+
+                "3": {
+                "nivel":"Instruído",
+                "descricao": "Você é capaz de interpretar e analisar a sabedoria popular, reconhecendo padrões e significados ocultos."
+                },
+
+                "4": {
+                "nivel":"Erudito",
+                "descricao": "Você possui um vasto conhecimento de tradições e costumes populares, sendo capaz de ensinar outros sobre eles."
+                },
+
+                "5": {
+                "nivel":"Sábio",
+                "descricao": "Sua compreensão da sabedoria popular é profunda, permitindo-lhe aplicar esse conhecimento em situações complexas e influenciar outros com suas histórias."
+                }
+            }
+        }
+    }       
+        
+
+        
+          
+        
+          
+        
+
+            
