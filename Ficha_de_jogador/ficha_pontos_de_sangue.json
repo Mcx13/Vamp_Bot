@@ -1,4 +1,4 @@
-"Pontos de Sangue":{
+"Pontos de Sangue": {
     "descrição": " Indicam quantidade de Vitae de um vampiro",
     "max": 50,
         "Geração":{
@@ -23,6 +23,6 @@
             "4": {
                 "minimo:": 41,
                 "maximo": 50
-            }
+                }
         }
-}
+    }

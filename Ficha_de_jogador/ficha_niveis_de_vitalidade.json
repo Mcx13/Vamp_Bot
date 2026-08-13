@@ -22,13 +22,16 @@
         },
     "Aleijado":{
         "penalidade de dados": -5,
-        "descricao": " personagem está catastroficamente ferido e só consegue rastejar (1 metro por turno)"
+        "descricao": "O personagem está catastroficamente ferido e só consegue rastejar (1 metro por turno)"
         },
     "Incapacitado":{
         "penalidade de dados": false,
         "descricao": "O personagem está incapaz de se mover e provavelmente inconsciente. Vampiros Incapacitados que não tenham sangue entram em Torpor"
         },
-    "Torpor": "O personagem entra em um transe semelhante à morte. Ele não pode realizar nenhuma ação — nem mesmo gastar Pontos de Sangue — até que um período de tempo tenha se passado.",
-    "Morte Final": "O  personagem morre novamente. Desta vez, sua morte é permanente."
-    
-}
+    "Torpor":{
+        "descricao": "O personagem entra em um transe semelhante à morte. Ele não pode realizar nenhuma ação — nem mesmo gastar Pontos de Sangue — até que um período de tempo tenha se passado."
+        },
+    "Morte Final":{
+        "descricao": "O personagem morre novamente. Desta vez, sua morte é permanente."
+        }
+    }
