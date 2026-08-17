@@ -37,7 +37,78 @@
             }
         }
     },
-    "Caminho": {},
+    "Caminhos": {
+        "descricao":"Os vampiros precisam dos Caminhos — caso contrário, sucumbiriam à verdadeira monstruosidade. Para conter o monstro interior, os vampiros trilham os Caminhos da Iluminação. Esses Caminhos são igualmente sociedades secretas, religiões, filosofias, moralidades — e desculpas. Vampiros precisam beber sangue para sobreviver. Isso, poucos contestariam. Mas os Caminhos da Iluminação dizem ao Cainita que outros comportamentos, mais específicos, não apenas são aceitáveis apesar da moralidade humana",
+            "Os caminhos que seguimos":{
+
+                "O caminho da Besta": {
+                    "via": "Bestiae",
+                    "descricao": "Os Cainitas no Caminho da Besta rejeitam a premissa mais básica da sociedade: a cultura, as pessoas e aqueles que vivem entre si não têm o direito inerente, como grupo, de julgar uns aos outros. Ou talvez isso se manifeste de forma mais egoísta — no sentido de que a sociedade pode fazer o que quiser, mas, para o Apóstata, ela não tem nenhuma autoridade legítima. ",
+                    "alcunha": "Apóstata",
+                    "etica da besta":{
+                        "1": "Você sobreviveu à morte, e agora a preservação de si é o objetivo mais verdadeiro que se pode buscar.",
+                        "2": " A Besta existe para ajudá-lo a sobreviver — não como uma manifestação do mal.",
+                        "3": "Você lutou por tudo o que tem, e tem direito a tudo pelo que lutou.",
+                        "4": "Você não pode ser guiado; pode ouvir as experiências adquiridas por outros, mas ninguém determina as condições da sua existência além de você.",
+                        "5": "A civilização é um amortecedor que o suaviza e o enfraquece. Exista ao lado dela, mas nunca dentro dela."
+                        },
+                    "iniciacao":"Vampiros não costumam chegar ao Caminho da Besta simplesmente por serem selvagens ou alienados. Normalmente, eles são conduzidos a esse caminho por educação ou manipulação de outros Apóstatas.Um vampiro experiente pode orientar outro por solidariedade, mas muitas vezes age de forma mais extrema: destrói seus vínculos com a sociedade e seus confortos, forçando-o a abandonar a vida civilizada e aceitar sua natureza predatória. Embora isso pareça cruel para quem vê de fora, os seguidores do Caminho consideram essa atitude um ato de libertação e bondade, pois acreditam que viver plenamente como predador é um propósito sagrado.",
+                    "organizacao":"O Apóstata rejeita toda autoridade e vive por suas próprias regras, embora possa cooperar com outros em relações instáveis de liderança, respeito ou aprendizado.",
+                    "rituais e observancias": "Embora rejeitem rituais e dogmas, os Apóstatas tratam a caçada como sagrada, usando diferentes práticas para separá-la do restante de sua existência e se aproximar da Besta.",
+                    "aura": "Ameaça. A Besta é bem-vinda na pele do Apóstata, e isso se reflete não apenas no seu olhar penetrante, mas no reflexo intermitente de sua alma.",
+                    "virtudes": "Convicção e Instinto",
+                    "hierarquia de pecados contra quem você é": {
+                        "pontuação":{
+                        "10":{
+                            "transgreção minima": "Arriscar a própria vida",
+                            "racionalização": "a sobrevivencia é primordial"
+                            },
+                        "9":{
+                            "transgreção minima":"Reconhecer um líder",
+                            "racionalização":"Não existe nós, apenas eu"
+                            },
+                        "8":{
+                            "transgreção minima":"Matar por prazer",
+                            "racionalização":"Nunca desperdice."
+                            },
+                        "7":{
+                            "transgreção minima":"Escolher viver em ordem em vez do caos",
+                            "racionalização":"A civilização enfraquece você."
+                            },
+                        "6":{
+                            "transgreção minima":"Ser cruel por prazer",
+                            "racionalização":"A crueldade é energia desperdiçada."
+                            },
+                        "5":{
+                            "transgreção minima":"Fazer algo sem ganho",
+                            "racionalização":"A caridade não alimenta a Besta"
+                            },
+                        "4":{
+                            "transgreção minima":"Falhar em matar quando a sobrevivência está em risco",
+                            "racionalização":"Se a escolha for entre você ou eles, deve ser você"
+                            },
+                        "3":{
+                            "transgreção minima":"Não proteger o que é seu",
+                            "racionalização":"Conquiste o que é seu, preserve o que é seu"
+                            },
+                        "2":{
+                            "transgreção minima":"Não ter posses próprias",
+                            "racionalização":"Marque seu território, suas pessoas, seu rebanho."
+                            },
+                        "1":{
+                            "transgreção minima":"Recusar-se a se alimentar quando estiver com fome",
+                            "racionalização":"Não há equilíbrio quando se nega a Besta."
+                            }
+                        
+                        }
+                    },
+                    
+
+                }
+            }
+        }
+           
+    },
 
 
     "Força de Vontade":{
