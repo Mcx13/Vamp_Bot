@@ -1,4 +1,4 @@
-
+{
   "Níveis de Vitalidade":{
     "Escoriado":{
         "penalidade de dados":0,
@@ -35,3 +35,4 @@
         "descricao": "O personagem morre novamente. Desta vez, sua morte é permanente."
         }
     }
+}

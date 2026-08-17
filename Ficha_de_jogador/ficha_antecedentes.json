@@ -1,9 +1,8 @@
-#Antecedentes
-
-"Antecedentes":{
-    "maximo":9,
+{
+"Antecedentes": {
+    "maximo": 9,
     "descricao": "Antecedentes descrevem vantagens relacionadas a relacionamentos, circunstâncias, posses materiais e oportunidades. São Características externas, e você deve sempre justificar como os adquiriu e o que eles representam dentro da narrativa.",
-    "Vantagens"{
+    "Vantagens": {
         
         "Aliados":{
             "descricao": "Aliados são pessoas que podem ajudá-lo, seja com informações, recursos ou apoio em momentos de necessidade. Eles podem ser amigos, colegas de trabalho, ou qualquer pessoa que tenha um vínculo positivo com você.",
@@ -18,7 +17,7 @@
             
         },
 
-        "Identidade alternativa"{
+        "Identidade alternativa": {
             "descricao": "Uma identidade alternativa permite que você se mova entre diferentes círculos sociais ou profissionais sem ser reconhecido. Isso pode incluir um nome falso, uma profissão diferente, ou uma vida completamente separada da sua identidade principal.",
             "maximo": 9,
             "nivel": {
@@ -30,7 +29,7 @@
             }
         },
 
-        "Contatos"{
+        "Contatos": {
             "descricao": "Contatos são pessoas que fornecem informações, recursos ou acesso a lugares e eventos. Eles podem ser informantes, colegas de profissão, ou qualquer pessoa que tenha conhecimento valioso para você.",
             "maximo": 9,
             "nivel": {
@@ -66,7 +65,7 @@
             }
         },
 
-        "Geração"{
+        "Geração":{
             "descricao": "Geração representa a distância do seu personagem em relação ao primeiro vampiro, Caim. Quanto menor a geração, mais próximo você está de Caim e mais poder você possui.",
             "maximo": 9,
             "nivel": {
@@ -148,6 +147,9 @@
                 "3": "Influente: um Ancião",
                 "4": "Poderoso: um Ancião amplamente respeitado",
                 "5": "Luminar: um Príncipe ou outro líder Cainita"
+                }
             }
+    
         }
+    }
 }

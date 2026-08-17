@@ -1,0 +1,184 @@
+{
+"Natureza e Comportamento":{
+    "descrição": "Natureza representa o verdadeiro eu do personagem e reflete uma visão profunda sobre o mundo.Comportamento é a atitude que o personagem apresenta ao mundo — e não possui efeito direto nas regras",
+    "arquetipos":{
+        "Arquiteto":{
+            "descricao":"O Arquiteto se apega a um propósito maior do que a si mesmo, encontrando satisfação ao criar algo de valor duradouro para os outros. Ele trabalha para suprir as necessidades daqueles ao seu redor.",
+            "efeito":"+1 FV sempre que você estabelecer algo de importância ou valor duradouro."
+            }
+        },
+        "Autocrata":{
+            "descricao":"O Autocrata busca poder e controle por si só.",
+            "efeito": "+1 FV  sempre que você exercer controle sobre um grupo ou organização"
+            },
+        
+        "Bobo da corte":{
+            "descricao":"O Bobo da Corte vê o mundo como um véu de tolices e enganos, e ilumina os outros por meio dos caminhos sutis do humor.",
+            "efeito":"+1 FV sempre que você elevar o ânimo de alguém em profunda miséria ou ridicularizar um tirano, tornando-o objeto de chacota."
+            },
+        
+        "Bon Vivant":{
+            "descricao":"O Bon Vivant vive intensamente, aproveitando cada segundo da existência.",
+            "efeito":"+1 FV sempre que você se divertir genuinamente. A critério do Narrador, uma festa excepcional pode render múltiplos pontos de Força de Vontade."
+            },
+        
+        "Caçador de emoçôes":{
+            "descricao":"O Caçador de Emoções vive pela adrenalina do perigo e busca ativamente situações arriscadas — e possivelmente fatais. Não é suicida nem autodestrutivo; apenas busca o estímulo do risco.",
+            "efeito":"+1 FV sempre que você tiver sucesso em uma tarefa perigosa assumida de forma deliberada."
+            },
+        "Camaleão":{
+            "descricao":"O Camaleão é cauteloso e independente. Ele observa comportamentos e maneirismos para se passar por outras pessoas quando conveniente.",
+            "efeito":"+1 FV sempre que você enganar alguém, fazendoo acreditar que você é outra pessoa em benefício próprio."
+            },
+        "Celebrante":{
+            "descricao":"O Celebrante encontra alegria em sua causa e se entrega de corpo e alma à paixão que escolheu, movido pelo entusiasmo — não pela obrigação.",
+            "efeito":"+1 FV sempre que você perseguir sua causa ou converter outro personagem à sua mesma paixão"
+            }, 
+        "Competidor":{
+            "descricao":"O Competidor encara cada tarefa — inclusive interações sociais — como um desafio a ser vencido.",
+            "efeito":"+1 FV sempre que você tiver sucesso em uma situação dramática. Vitórias especialmente difíceis podem conceder múltiplos pontos, a critério do Narrador."
+            }, 
+        "Conformista":{
+            "descricao":"O Conformista é um seguidor, integrando-se ao grupo e apoiando sua causa.",
+            "efeito":"+1 FV sempre que o grupo ou o líder que você apoia alcançar um objetivo graças ao seu suporte."
+            },  
+        "Criança":{
+            "descricao":"A Criança é imatura no temperamento e na personalidade. Apesar de ser capaz dese virar sozinha, prefere que os outros atendam às suas vontades.",
+            "efeito":"+1 FV sempre que você convencer alguém a ajudá-lo sem oferecer nada em troca."
+            },  
+        "Cuidador":{
+            "descricao":"O Cuidador encontra consolo em confortar os outros — e é frequentemente procurado por aqueles que enfrentam dificuldades.",
+            "efeito":"+1 FV sempre que você proteger ou cuidar de alguém com sucesso."
+            },  
+        "Defensor":{
+            "descricao":"O Defensor luta para proteger sua causa escolhida diante dos que a ameaçam. Pode ser uma inovação frágil ou uma esperança de progresso futuro.",
+            "efeito":"+1 FV sempre que você defender com sucesso sua causa"
+            },
+        "Desviante":{
+            "descricao":"O Desviante é um estranho à sociedade, marginalizado por seus gostos ou crenças não convencionais, e sente que o mundo está contra ele.",
+            "efeito":"+1 FV sempre que você transgredir normas sociais sem sofrer retribuição."
+            },
+        "Diletante":{
+            "descricao":"O Diletante se interessa por tudo, mas não se aprofunda em nada. Salta de ideia em ideia sem concluir coisa alguma.",
+            "efeito":"+1 FV sempre que você abraçar um novo entusiasmo e abandonar completamente o anterior."
+            }, 
+        "Enigma":{
+            "descricao":"As ações do Enigma são bizarras, desconcertantes e inexplicáveis. Seu comportamento errático sugere excentricidade — ou loucura.",
+            "efeito":"+1 FV sempre que alguém ficar perplexo com uma de suas ações que mais tarde se revelar produtiva."
+            },
+        "Fanático":{
+            "descricao":" O  Fanático é consumido por uma causa. Qualquer desvio desse propósito pode até lhe causar culpa.",
+            "efeito":"+1 FV sempre que você realizar algo diretamente ligado à sua causa."
+            },
+        "Fera":{
+            "descricao":"A Fera só respeita feitos concretos e acredita que a civilização é uma armadilha para os fracos. O que importa é a conquista pessoal.",
+            "efeito":"+1 FV sempre que você vencer uma competição civilizada por meio de ação direta."
+            },
+        "Filósofo":{
+            "descricao":"O Filósofo examina criticamente cada situação, buscando padrões e desfechos lógicos.",
+            "efeito":"+1 FV sempre que uma abordagem lógica e sistemática ajudar a resolver um problema, ou quando informações obtidas de forma lógica forem úteis em outra situação semelhante"
+            },
+        "Galante":{
+            "descricao":"O Galante é uma alma exuberante, sempre em busca de atenção — nem que seja apenas para conquistar admiração.",
+            "efeito":"+1 FV sempre que você impressionar com sucesso outra pessoa"
+            },
+        "Guru":{
+            "descricao":"A iluminação do Guru atrai os outros. Sua presença inspira buscas espirituais ou ideológicas.",
+            "efeito":"+1 FV sempre que sua orientação levar alguém a uma ação iluminada que a pessoa normalmente não tomaria."
+            },
+        "Idealista":{
+            "descricao":"O Idealista acredita em um propósito elevado ou em uma moral superior, e tenta reconciliar essa crença com as exigências da existência vampírica — muitas vezes à custa dos próprios interesses.",
+            "efeito":"+1 FV sempre que uma ação aproximar seus ideais da realização"
+            },
+        "Juiz":{
+            "descricao":"O Juiz busca aperfeiçoar o sistema, enxergando na justiça o modelo mais eficiente para resolver disputas.",
+            "efeito":"+1 FV sempre que você resolver corretamente um problema com base nas evidências apresentadas, ou quando um de seus argumentos conseguir unir partes em conflito."
+            },
+        "Malandro":{
+            "descricao":"O Malandro se importa com apenas uma coisa: ele mesmo. Não é necessariamente um brutamontes ou valentão — apenas mantém seus próprios interesses sempre em primeiro lugar.",
+            "efeito":"+1 FV sempre que sua disposição egoísta resultar em algum tipo de lucro para você."
+            },     
+        "Martir":{
+            "descricao":"O Mártir sofre por sua causa, suportando provações na crença de que seu sacrifício tornará o mundo um lugar melhor.",
+            "efeito":"+1 FV sempre que você sofrer algum dano ou perder um recurso mensurável por seus ideais, ou pelo benefício imediato de outra pessoa."
+            },
+        "Masoquista":{
+            "descricao":"O Masoquista vive para testar seus limites e encontra satisfação na humilhação, no sofrimento, na privação e na dor física.",
+            "efeito":"+1 FV sempre que seu sofrimento resultar em um ganho tangível para você, ou sempre que experimentar a dor de forma única"
+            },
+        "Mercenário":{
+            "descricao":"O Mercenário acredita que tudo pode ser transformado em mercadoria. Aparência e influência são tudo em uma negociação — nenhuma vantagem é desperdiçada",
+            "efeito":"+1 FV sempre que você concluir com sucesso a venda de qualquer mercadoria ou serviço."
+            },
+        "Monstro":{
+            "descricao":"O Monstro reconhece que é uma criatura das trevas — e age como tal. O mal e o sofrimento são ferramentas. Ela não comete atrocidades por pura maldade, mas como meio de compreender aquilo em que se tornou.",
+            "efeito":"+1 FV sempre que você cometer uma atrocidade específica. Narradores devem ter cautela ao recompensar este arquétipo. Um jogador que escolha a violência como forma de atrocidade não deve recuperar Força de Vontade em todo combate, mas talvez apenas quando precisar realizar um teste de degeneração. As recompensas devem ocorrer quando o personagem confrontar sua própria queda rumo à Besta."
+            },
+        "Olho da Tempestade":{
+            "descricao":"O Olho da Tempestade mantém a calma, mas o caos parece segui-lo onde quer que vá.",
+            "efeito":"+1 FV sempre que ocorrer um tumulto, motim ou outro fenômeno caótico (ainda que não violento) ao seu redor."
+            },
+        "Pedagogo":{
+            "descricao":"O Pedagogo acredita saber tudo — e faz questão de garantir que sua mensagem seja ouvida, mesmo que por meio de longos discursos.",
+            "efeito":"+1 FV sempre que você testemunhar ou souber de alguém que se beneficiou da sabedoria que compartilhou."
+            },
+        "Penitente":{
+            "descricao":"O Penitente busca expiar o pecado essencial de simplesmente existir. Sente-se compelido a compensar o fardo que impõe ao mundo.",
+            "efeito":"+1 FV sempre que sentir que alcançou absolvição por um pecado específico."
+            },
+        "Perfeccionista":{
+            "descricao":"O Perfeccionista exige execução impecável — tanto de si quanto dos outros.",
+            "efeito":"+1 FV sempre que você motivar outro personagem a alcançar o sucesso como resultado direto do seu exemplo inspirador."
+            },
+        "Ranzinza":{
+            "descricao":"O Ranzinza é amargo e cínico, enxerga falhas em tudo e vê pouco humor na vida — ou na não-vida. Fatalista e pessimista, nutre pouca estima pelos outros.",
+            "efeito":"+1 FV sempre que alguém tomar uma ação negativa específica, exatamente como você havia previsto em voz alta."
+            },    
+        "Rebelde":{
+            "descricao":"O Rebelde é um descontente nato, jamais satisfeito com o status quo ou com o sistema como ele é. Ele faz tudo ao seu alcance para minar as autoridades.",
+            "efeito":"+1 FV sempre que suas ações prejudicarem sua oposição escolhida"
+            },
+        "Sádico":{
+            "descricao":"O Sádico vive para causar dor e sofrimento. Matar é fácil demais. Ele busca os meios mais lentos e cruéis para levar os outros ao limite.",
+            "efeito":"+1 FV sempre que você infligir dor a alguém unicamente pelo seu próprio prazer."
+            },
+        "Show de horrores":{
+            "descricao":"O Show de Horrores se deleita em chocar, perturbar e amedrontar os outros. A fachada serve para intimidar e dominar — e muitos realmente acreditam que ele é o próprio Diabo.",
+            "efeito":"+1 FV sempre que alguém recuar de você em horror ou reagir com medo."
+            },
+        "Sobrevivente":{
+            "descricao":"O Sobrevivente sempre consegue resistir, não importa as probabilidades ou a oposição. Sua recusa obstinada em aceitar a derrota costuma ser a diferença entre sucesso e fracasso.",
+            "efeito":"+1 FV sempre que você sobreviver a uma situação ameaçadora por pura tenacidade, ou quando seu conselho ajudar outra pessoa a persistir diante da adversidade."
+            },
+        "Soldado":{
+            "descricao":"O Soldado não é um seguidor cego. Embora viva para cumprir ordens, não as obedece sem questionamento. É mais independente que um Conformista, mas ainda muito ligado à ideia de comando para ser um Solitário. Aplica suas próprias táticas aos objetivos de outros, e sua ambição está inserida dentro da hierarquia.",
+            "efeito":"+1 FV sempre que cumprir os objetivos de uma ordem recebida."
+            },
+        "Solitário":{
+            "descricao":"O Solitário prefere a própria companhia à dos outros — e o sentimento geralmente é recíproco.",
+            "efeito":"+1 FV quando você realizar algo sozinho que, de alguma forma, beneficie o grupo como um todo"
+            },
+        "Tradicionalista":{
+            "descricao":"O Tradicionalista prefere alcançar seus objetivos por métodos consagrados pelo tempo. O status quo é aceitável — e, muitas vezes, preferível à mudança.",
+            "efeito":"+1 FV sempre que o caminho tradicional se mostrar o mais eficaz. Além disso, recupere 1 ponto de Força de Vontade sempre que você se manter fiel a uma de suas posturas anteriores e isso se revelar uma decisão correta."
+            },
+        "Trapaceiro":{
+            "descricao":"O Trapaceiro busca o caminho mais rápido para o sucesso por meio de truques, mentiras e manipulações.",
+            "efeito":"+1 FV sempre que você enganar alguém ou convencê-lo a te ajudar contra os próprios interesses da pessoa"
+            },
+        "Tirano":{
+            "descricao":"O Tirano deseja liderar ou estar no controle, trazendo ordem ao caos.",
+            "efeito":"+1 FV sempre que você influenciar ou ajudar um grupo a completar uma tarefa difícil."
+            },
+        "Valentão":{
+            "descricao":"O Valentão acredita que o poder dita o que é certo. Poder é tudo — e, embora o físico seja o ideal, qualquer tipo serve.",
+            "efeito":"+1 FV sempre que você alcançar um objetivo por meio de brutalidade (física ou social) ou intimidação."
+            },
+        "Visionário":{
+            "descricao":"O Visionário desafia os limites impostos pela sociedade e persegue aquilo que poucos têm coragem de imaginar. Ele inspira os outros a aspirar não ao que são, mas ao que poderiam ser. Ele é o responsável por trazer sucesso e mudanças.",
+            "efeito":"+1 FV sempre que você convencer outras pessoas a acreditar em sua visão de futuro."
+            },
+        }
+    
+}
+    

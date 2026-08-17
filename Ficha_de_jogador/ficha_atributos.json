@@ -1,4 +1,3 @@
-#Atributos
 {
   "Atributos": {
     "fisicos": {
@@ -264,26 +263,26 @@
           "1": {
             "nivel":"Fraco",
             "descricao": "O que você deveria dizer? Uh… tarde demais, eles já foram embora."
-          },
+              },
           "2": {
             "nivel":"Mediano",
             "descricao": "Você troca piadas e provocações com amigos e conhecidos"
-          },
+              },
           "3": {
             "nivel":"Bom",
             "descricao": "Você geralmente consegue ter a palavra finale ri por último."
-          },
+              },
           "4": {
             "nivel":"Excepcional",
             "descricao": "Você tem uma resposta para quase tudo."
-          },
+              },
           "5": {
             "nivel":"Extraordinário",
             "descricao": "Sempre calmo. Sempre controlado. Sempre."
+            }
           }
         }
       }
     }
   }
-
 }

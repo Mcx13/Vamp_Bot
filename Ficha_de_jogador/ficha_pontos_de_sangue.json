@@ -1,28 +1,30 @@
-"Pontos de Sangue": {
-    "descrição": " Indicam quantidade de Vitae de um vampiro",
-    "max": 50,
-        "Geração":{
-            "13": 10,
-            "12": 11,
-            "11": 12,
-            "10": 13,
-            "9": 14,
-            "8": 15,
-            "7": {
-                "minimo": 16,
-                "maximo": 20
-                },
-            "6":{
-                "minimo": 21,
-                "maximo": 30
-                },
-            "5": {
-                "minimo": 31,
-                "maximo": 40
-                },
-            "4": {
-                "minimo:": 41,
-                "maximo": 50
-                }
+{
+    "Pontos de Sangue": {
+        "descrição": " Indicam quantidade de Vitae de um vampiro",
+        "max": 50,
+            "Geração":{
+                "13": 10,
+                "12": 11,
+                "11": 12,
+                "10": 13,
+                "9": 14,
+                "8": 15,
+                "7": {
+                    "minimo": 16,
+                    "maximo": 20
+                    },
+                "6":{
+                    "minimo": 21,
+                    "maximo": 30
+                    },
+                "5": {
+                    "minimo": 31,
+                    "maximo": 40
+                    },
+                "4": {
+                    "minimo:": 41,
+                    "maximo": 50
+                    }
+            }
         }
-    }
+}

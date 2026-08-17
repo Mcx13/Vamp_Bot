@@ -1,6 +1,4 @@
-# Habilidades
-
-
+{
 "Habilidades": {
     "Talentos":{
         "Prontidão": {
@@ -1012,6 +1010,4 @@
               "permitido": true
             }
         }
-     
-
-            
+}
